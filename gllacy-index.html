@@ -39,12 +39,24 @@
             </div>
             <div class="userblock__item">
               <a href="" class="userblock-link">Вход</a>
-              <form action="" class="userblock-login">
-                <input type="text" class="input userblock-login__email" placeholder="Электронная почта">
-                <input type="text" class="input userblock-login__password" placeholder="Пароль">
-                <button type="submit" name="button" class="btn userblock-login__btn">Войти</button>
-                <a href="" class="userblock-login__link">Забыли пароль?</a>
-                <a href="" class="userblock-login__link">Новая регистрация</a>
+              <form action="">
+                <div class="field-checkbox  field-group">
+                  <div class="field-text__wrapper">
+                    <label class="field-text__item">
+                      <input class="field-text__input" type="text" placeholder="Электронная почта">
+                      <span class="field-text__text"></span>
+                    </label>
+                    <label class="field-text__item">
+                      <input class="field-text__input" type="text" placeholder="Пароль">
+                      <span class="field-text__text"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="field-action">
+                  <input class="field-action__btn btn" type="submit" value="Войти">
+                </div>
+                <a href="" class="link">Забыли пароль?</a>
+                <a href="" class="link">Новая регистрация</a>
               </form>
             </div>
             <div class="userblock__item">
@@ -161,30 +173,29 @@
         </div>
         <article class="banner banner--delivery">
           <p class="banner-delivery__text">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =) </p>
-          <form class="form-delivery" action="">
-            <div class="field-checkbox  field-group">
-              <div class="field-checkbox__title"></div>
-              <div class="field-checkbox__wrapper">
-                <label class="field-checkbox__item">
-                  <input type="text" size="" placeholder="Электронная почта">
-                  <div class="btn">
-                    <input type="submit" value="Отправить">
-                  </div>
+          <form action="">
+            <div class="field-text  field-group">
+              <div class="field-text__wrapper">
+                <label class="field-text__item">
+                  <input class="field-text__input" type="text" size="" placeholder="Электронная почта">
                 </label>
               </div>
+            </div>
+            <div class="field-action">
+              <input class="field-action__btn btn" type="submit" value="Отправить">
             </div>
           </form>
         </article>
       </main>
       <div class="map">
         <div class="feedback">
-          <div class="feedback-info">
-            <p class="feedback-info__text">Адрес главного офиса и офлайн магазина: <span>ул. Большая Конюшенная 19/8, Санкт-Петербург</span></p>
+          <div class="feedback__info">
+            <p class="feedback__text">Адрес главного офиса и офлайн магазина: <span>ул. Большая Конюшенная 19/8, Санкт-Петербург</span></p>
           </div>
-          <div class="feedback-info">
-            <p class="feedback-info__text">Для заказов по телефону: <span>8 812 450-25-25</span> (с 10 до 20 ежедневно)</p>
+          <div class="feedback__info">
+            <p class="feedback__text">Для заказов по телефону: <span>8 812 450-25-25</span> (с 10 до 20 ежедневно)</p>
           </div>
-          <a class="btn" href="">Форма обратной связи</a>
+          <a class="feedback__btn btn" href="">Форма обратной связи</a>
         </div>
       </div>
       <footer class="page-footer">

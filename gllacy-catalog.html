@@ -36,12 +36,24 @@
             </div>
             <div class="userblock__item">
               <a href="" class="userblock-link">Вход</a>
-              <form action="" class="userblock-login">
-                <input type="text" class="input userblock-login__email" placeholder="Электронная почта">
-                <input type="text" class="input userblock-login__password" placeholder="Пароль">
-                <button type="submit" name="button" class="btn userblock-login__btn">Войти</button>
-                <a href="" class="userblock-login__link">Забыли пароль?</a>
-                <a href="" class="userblock-login__link">Новая регистрация</a>
+              <form action="">
+                <div class="field-checkbox  field-group">
+                  <div class="field-text__wrapper">
+                    <label class="field-text__item">
+                      <input class="field-text__input" type="text" placeholder="Электронная почта">
+                      <span class="field-text__text"></span>
+                    </label>
+                    <label class="field-text__item">
+                      <input class="field-text__input" type="text" placeholder="Пароль">
+                      <span class="field-text__text"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="field-action">
+                  <input class="field-action__btn btn" type="submit" value="Войти">
+                </div>
+                <a href="" class="link">Забыли пароль?</a>
+                <a href="" class="link">Новая регистрация</a>
               </form>
             </div>
             <div class="userblock__item">
@@ -94,14 +106,14 @@
         </ul>
         <h1>Сливочное мороженое</h1>
         <form>
-          <div class="field-checkbox  field-group">
-            <div class="field-checkbox__title">Сортировка:</div>
-            <div class="field-checkbox__wrapper">
-              <label class="field-checkbox__item">
-                <select class="field-checkbox__select" name="">
-                  <option>По популярности</option>
-                  <option>По Цене</option>
-                  <option>По рейтингу</option>
+          <div class="field-select  field-group">
+            <div class="field-select__title">Сортировка:</div>
+            <div class="field-select__wrapper">
+              <label class="field-select__item">
+                <select class="field-select__select" name="">
+                  <option class="field-select__select-item">По популярности</option>
+                  <option class="field-select__select-item">По Цене</option>
+                  <option class="field-select__select-item">По рейтингу</option>
                 </select>
               </label>
             </div>
@@ -114,24 +126,24 @@
               </label>
             </div>
           </div>
-          <div class="field-checkbox  field-group">
-            <div class="field-checkbox__title">Жирность:</div>
-            <div class="field-checkbox__wrapper">
-              <label class="field-checkbox__item">
-                <input class="field-checkbox__input" type="radio">
-                <span class="field-checkbox__text">0 %</span>
+          <div class="field-radio  field-group">
+            <div class="field-radio__title">Жирность:</div>
+            <div class="field-radio__wrapper">
+              <label class="field-radio__item">
+                <input class="field-radio__input" type="radio">
+                <span class="field-radio__text">0 %</span>
               </label>
-              <label class="field-checkbox__item">
-                <input class="field-checkbox__input" type="radio">
-                <span class="field-checkbox__text">до 10 %</span>
+              <label class="field-radio__item">
+                <input class="field-radio__input" type="radio">
+                <span class="field-radio__text">до 10 %</span>
               </label>
-              <label class="field-checkbox__item">
-                <input class="field-checkbox__input" type="radio">
-                <span class="field-checkbox__text">до 30 %</span>
+              <label class="field-radio__item">
+                <input class="field-radio__input" type="radio">
+                <span class="field-radio__text">до 30 %</span>
               </label>
-              <label class="field-checkbox__item">
-                <input class="field-checkbox__input" type="radio">
-                <span class="field-checkbox__text">выше 30 %</span>
+              <label class="field-radio__item">
+                <input class="field-radio__input" type="radio">
+                <span class="field-radio__text">выше 30 %</span>
               </label>
             </div>
           </div>
@@ -160,8 +172,8 @@
               </label>
             </div>
           </div>
-          <div class="btn search-form__button">
-              <input type="submit" value="Применить">
+          <div class="field-action">
+              <input class="field-action__btn btn" type="submit" value="Применить">
           </div>
         </form>
         <section class="products">
