@@ -1,0 +1,301 @@
+.slider-input {
+  display: none;
+}
+*{
+  margin: 0px;
+}
+/*body > *, body > * > *, body > * > * > *,
+body > * > * > * > *, body > * > * > * > * > * {
+  box-shadow: 0 0 0 1px lightgreen;
+}*/
+html {
+
+}
+body {
+
+}
+
+
+.page-wrapper {
+  width: 1200px;
+  margin: auto;
+  background-image: url("../img/bg.png");
+}
+.page-header {
+
+}
+.page-header__wrapper {
+
+}
+.logo {
+
+}
+
+.main-nav {
+
+}
+.main-nav__item {
+
+}
+.main-nav__link {
+
+}
+.inner-list {
+
+}
+.inner-list__item {
+
+}
+.inner-list__link {
+
+}
+.userblock {
+
+}
+.userblock__item {
+
+}
+.userblock__item--search {
+
+}
+form {
+
+}
+.field-text {
+
+}
+.field-group {
+
+}
+.field-text__wrapper {
+
+}
+.field-text__item {
+
+}
+.field-text__input {
+
+}
+.field-text__text {
+
+}
+.userblock-link {
+
+}
+.field-action {
+
+}
+.field-action__btn {
+
+}
+.btn {
+
+}
+.link {
+
+}
+.userblock__link {
+
+}
+.userblock__link--fullbasket {
+
+}
+.userblock-basket {
+
+}
+.userblock-basket__item {
+
+}
+.userblock-basket__img {
+
+}
+.userblock-basket__description {
+
+}
+.userblock-basket__description-text {
+
+}
+.userblock-basket__weight {
+
+}
+.userblock-basket__weight-text {
+
+}
+.userblock-basket__prize {
+
+}
+.userblock-basket__prize-text {
+
+}
+.hr {
+
+}
+.userblock-basket__text {
+
+}
+.userblock-basket__link {
+
+}
+.userblock-info {
+
+}
+.userblock-text {
+
+}
+.userblock-text--bold {
+
+}
+
+
+/*Слайдер*/
+.slider {
+
+}
+.slide {
+
+}
+.slide-title {
+
+}
+.slide-btn {
+
+}
+.slider-controls {
+
+}
+
+
+
+main {
+
+}
+.banners {
+
+}
+.banners__wrapper {
+
+}
+.banner {
+
+}
+.banner__title {
+
+}
+.banner__text {
+
+}
+
+.products {
+
+}
+.product-item {
+
+}
+.product-item--hit {
+
+}
+.product-item__img {
+
+}
+.product-item__prize {
+
+}
+.product-item__description {
+
+}
+
+.features {
+
+}
+.features__title {
+
+}
+.features__list {
+
+}
+.features__item {
+
+}
+
+
+.banner-blog {
+
+}
+.banner-blog__text {
+
+}
+.banner-blog__link {
+
+}
+.banner--delivery {
+
+}
+.banner-delivery__text {
+
+}
+
+
+
+.map {
+
+}
+.feedback {
+
+}
+.feedback__info {
+
+}
+.feedback__text {
+
+}
+.feedback__btn {
+
+}
+
+
+
+
+.page-footer {
+
+}
+.page-footer__wrapper {
+
+}
+.social-block {
+
+}
+.social-item {
+
+}
+.social-item--twitter {
+
+}
+.social-item--instagram {
+
+}
+.social-item--fb {
+
+}
+.social-item--vk {
+
+}
+
+.footer-links {
+
+}
+.footer-links--item {
+
+}
+.footer-links__link {
+
+}
+
+.copyright {
+
+}
+.copyright__link {
+
+}
+.copyright__text {
+
+}

@@ -3,19 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link href="css\gllacy.css" rel="stylesheet">
   </head>
   <body>
-    <input type="radio" id="btn-1" name="toggle" checked>
-    <input type="radio" id="btn-2" name="toggle">
-    <input type="radio" id="btn-3" name="toggle">
+    <input class="slider-input" type="radio" id="btn-1" name="toggle" checked>
+    <input class="slider-input" type="radio" id="btn-2" name="toggle">
+    <input class="slider-input" type="radio" id="btn-3" name="toggle">
     <div class="page-wrapper">
       <header class="page-header">
         <div class="page-header__wrapper">
           <div class="logo">
-            <img src="" alt="">
+            <img src="img/gllacy-logo.png" alt="logo" width="200" height="100">
           </div>
           <ul class="main-nav">
-            <li href="" class="main-nav__item"><a href="" class="main-nav__link">Каталог</a></li>
+            <li href="" class="main-nav__item">
+              <a href="" class="main-nav__link">Каталог</a>
+            </li>
               <ul class="inner-list">
                 <li class="inner-list__item"><a href="" class="inner-list__link">Новинки</a></li>
                 <li class="inner-list__item"><a href="" class="inner-list__link">Сливочное</a></li>
@@ -34,13 +37,20 @@
           <div class="userblock">
             <div class="userblock__item userblock__item--search">
               <form action="">
-                <input type="submit" placeholder="Что ищем?">
+                <div class="field-text  field-group">
+                  <div class="field-text__wrapper">
+                    <label class="field-text__item">
+                      <input class="field-text__input" type="submit" placeholder="Что ищем?">
+                      <span class="field-text__text"></span>
+                    </label>
+                  </div>
+                </div>
               </form>
             </div>
             <div class="userblock__item">
               <a href="" class="userblock-link">Вход</a>
               <form action="">
-                <div class="field-checkbox  field-group">
+                <div class="field-text  field-group">
                   <div class="field-text__wrapper">
                     <label class="field-text__item">
                       <input class="field-text__input" type="text" placeholder="Электронная почта">
