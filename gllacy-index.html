@@ -13,7 +13,7 @@
       <header class="page-header">
         <div class="page-header__wrapper">
           <div class="logo">
-            <img src="img/gllacy-logo.png" alt="logo" width="200" height="100">
+            <img src="img/gllacy-logo.png" alt="logo" width="200">
           </div>
           <ul class="main-nav">
             <li href="" class="main-nav__item">
@@ -35,81 +35,50 @@
             </li>
           </ul>
           <div class="userblock">
-            <div class="userblock__item userblock__item--search">
-              <form action="">
-                <div class="field-text  field-group">
-                  <div class="field-text__wrapper">
-                    <label class="field-text__item">
-                      <input class="field-text__input" type="submit" placeholder="Что ищем?">
-                      <span class="field-text__text"></span>
-                    </label>
+            <div class="userblock__wrapper">
+              <div class="userblock__item userblock__item--search">
+                <form action="">
+                  <div class="field-text  field-group">
+                    <div class="field-text__wrapper">
+                      <label class="field-text__item">
+                        <input class="field-text__input" type="submit" placeholder="Что ищем?">
+                        <span class="field-text__text"></span>
+                      </label>
+                    </div>
                   </div>
-                </div>
-              </form>
-            </div>
-            <div class="userblock__item">
-              <a href="" class="userblock-link">Вход</a>
-              <form action="">
-                <div class="field-text  field-group">
-                  <div class="field-text__wrapper">
-                    <label class="field-text__item">
-                      <input class="field-text__input" type="text" placeholder="Электронная почта">
-                      <span class="field-text__text"></span>
-                    </label>
-                    <label class="field-text__item">
-                      <input class="field-text__input" type="text" placeholder="Пароль">
-                      <span class="field-text__text"></span>
-                    </label>
+                </form>
+              </div>
+              <div class="userblock__item">
+                <a href="" class="userblock-link">Вход</a>
+                <form action="">
+                  <div class="field-text  field-group">
+                    <div class="field-text__wrapper">
+                      <label class="field-text__item">
+                        <input class="field-text__input" type="text" placeholder="Электронная почта">
+                        <span class="field-text__text"></span>
+                      </label>
+                      <label class="field-text__item">
+                        <input class="field-text__input" type="text" placeholder="Пароль">
+                        <span class="field-text__text"></span>
+                      </label>
+                    </div>
                   </div>
-                </div>
-                <div class="field-action">
-                  <input class="field-action__btn btn" type="submit" value="Войти">
-                </div>
-                <a href="" class="link">Забыли пароль?</a>
-                <a href="" class="link">Новая регистрация</a>
-              </form>
+                  <div class="field-action">
+                    <input class="field-action__btn btn" type="submit" value="Войти">
+                  </div>
+                  <a href="" class="link">Забыли пароль?</a>
+                  <a href="" class="link">Новая регистрация</a>
+                </form>
+              </div>
+              <div class="userblock__item">
+                <a href="" class="userblock__link userblock__link--fullbasket">Пусто</a>
+              </div>
             </div>
-            <div class="userblock__item">
-              <a href="" class="userblock__link userblock__link--fullbasket">2 товара</a>
-              <table class="userblock-basket">
-                <tr class="userblock-basket__item">
-                  <td>
-                    <img src="" alt="" class="userblock-basket__img">
-                  </td>
-                  <td class="userblock-basket__description">
-                    <p class="userblock-basket__description-text">Пломбир с апельсиновым джемом</p>
-                  </td>
-                  <td class="userblock-basket__weight">
-                    <p class="userblock-basket__weight-text">1.5 кг x 200 руб.</p>
-                  </td>
-                  <td class="userblock-basket__prize">
-                    <p class="userblock-basket__prize-text">300 руб.</p>
-                  </td>
-                </tr>
-                <tr class="userblock-basket__item">
-                  <td>
-                    <img src="" alt="" class="userblock-basket__img">
-                  </td>
-                  <td class="userblock-basket__description">
-                    <p class="userblock-basket__description-text">Клубничный пломбир с присыпкой из белого шоколада</p>
-                  </td>
-                  <td class="userblock-basket__weight">
-                    <p class="userblock-basket__weight-text">1.5 кг x 300 руб.</p>
-                  </td>
-                  <td class="userblock-basket__prize">
-                    <p class="userblock-basket__prize-text">450 руб.</p>
-                  </td>
-                </tr>
-                <hr class="hr">
-                <p class="userblock-basket__text">Итого: 750 руб.</p>
-                <a href="" class="btn userblock-basket__link">Оформить заказ</a>
-              </table>
+            <div class="userblock-info">
+              <p class="userblock-text">с 10 до 20, ежедневно</p>
+              <p class="userblock-text userblock-text--bold">8 812 450-25-25</p>
             </div>
-          </div>
-          <div class="userblock-info">
-            <p class="userblock-text">с 10 до 20, ежедневно</p>
-            <p class="userblock-text userblock-text--bold">8 812 450-25-25</p>
-          </div>
+        </div>
       </header>
       <!-- Слайдер -->
       <div class="slider">
@@ -180,7 +149,7 @@
         <article class="banner banner-blog">
           <p class="banner-blog__text">Новое в нашем блоге</p>
           <a class="banner-blog__link">10  способов сервировки фруктовых щербетов к столу</a>
-        </div>
+        </article>
         <article class="banner banner--delivery">
           <p class="banner-delivery__text">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =) </p>
           <form action="">
@@ -197,37 +166,37 @@
           </form>
         </article>
       </main>
-      <div class="map">
-        <div class="feedback">
-          <div class="feedback__info">
-            <p class="feedback__text">Адрес главного офиса и офлайн магазина: <span>ул. Большая Конюшенная 19/8, Санкт-Петербург</span></p>
-          </div>
-          <div class="feedback__info">
-            <p class="feedback__text">Для заказов по телефону: <span>8 812 450-25-25</span> (с 10 до 20 ежедневно)</p>
-          </div>
-          <a class="feedback__btn btn" href="">Форма обратной связи</a>
+    </div>
+    <div class="map">
+      <div class="feedback">
+        <div class="feedback__info">
+          <p class="feedback__text">Адрес главного офиса и офлайн магазина: <span>ул. Большая Конюшенная 19/8, Санкт-Петербург</span></p>
+        </div>
+        <div class="feedback__info">
+          <p class="feedback__text">Для заказов по телефону: <span>8 812 450-25-25</span> (с 10 до 20 ежедневно)</p>
+        </div>
+        <a class="feedback__btn btn" href="">Форма обратной связи</a>
+      </div>
+    </div>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper page-wrapper">
+        <div class="social-block">
+          <a href="" class="social-item social-item--twitter"></a>
+          <a href="" class="social-item social-item--instagram"></a>
+          <a href="" class="social-item social-item--fb"></a>
+          <a href="" class="social-item social-item--vk"></a>
+        </div>
+        <ul class="footer-links">
+            <li class="footer-links--item"><a href="" class="footer-links__link">Для поставщиков</a></li>
+            <li class="footer-links--item"><a href="" class="footer-links__link">О производстве</a></li>
+            <li class="footer-links--item"><a href="" class="footer-links__link">Наши документы</a></li>
+            <li class="footer-links--item"><a href="" class="footer-links__link">Экологические стандарты</a></li>
+        </ul>
+        <div class="copyright">
+          <a class="copyright__link" href=""><img src="" alt=""></a>
+          <p class="copyright__text">Сделано в HTML Academy &#169; 2016</p>
         </div>
       </div>
-      <footer class="page-footer">
-        <div class="page-footer__wrapper">
-          <div class="social-block">
-            <a href="" class="social-item social-item--twitter"></a>
-            <a href="" class="social-item social-item--instagram"></a>
-            <a href="" class="social-item social-item--fb"></a>
-            <a href="" class="social-item social-item--vk"></a>
-          </div>
-          <ul class="footer-links">
-              <li class="footer-links--item"><a href="" class="footer-links__link">Для поставщиков</a></li>
-              <li class="footer-links--item"><a href="" class="footer-links__link">О производстве</a></li>
-              <li class="footer-links--item"><a href="" class="footer-links__link">Наши документы</a></li>
-              <li class="footer-links--item"><a href="" class="footer-links__link">Экологические стандарты</a></li>
-          </ul>
-          <div class="copyright">
-            <a class="copyright__link" href=""><img src="" alt=""></a>
-            <p class="copyright__text">Сделано в HTML Academy &#169; 2016</p>
-          </div>
-        </div>
-      </footer>
-    </div>
+    </footer>
   </body>
 </html>
