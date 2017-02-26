@@ -2,7 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Gllasy-catalog</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="css\normalize.css" rel="stylesheet">
     <link href="css\gllacy.css" rel="stylesheet">
   </head>
   <body>
@@ -10,10 +12,10 @@
       <header class="page-header">
         <div class="page-header__wrapper">
           <div class="logo">
-            <img src="img/gllacy-logo.png" alt="logo" width="200" height="100">
+            <img src="img/logo.png" alt="logo" width="154" height="64">
           </div>
           <ul class="main-nav">
-            <li href="" class="main-nav__item"><a href="" class="main-nav__link">Каталог</a></li>
+            <li class="main-nav__item"><a href="" class="main-nav__link">Каталог</a>
               <ul class="inner-list">
                 <li class="inner-list__item"><a href="" class="inner-list__link">Новинки</a></li>
                 <li class="inner-list__item"><a href="" class="inner-list__link">Сливочное</a></li>
@@ -25,19 +27,19 @@
             <li class="main-nav__item">
               <a href="" class="main-nav__link">Доставка и оплата</a>
             </li>
-            <li class="main-nav__item">
-              <a href="" class="main-nav__link">О компании</a>
-            </li>
-          </ul>
-          <div class="userblock">
+              <li class="main-nav__item">
+                <a href="" class="main-nav__link">О компании</a>
+              </li>
+            </ul>
+            <div class="userblock">
             <div class="userblock__item userblock__item--search">
-              <form action="">
-                <input type="submit" placeholder="Что ищем?">
+              <form action="url">
+                <input type="text" placeholder="Что ищем?">
               </form>
             </div>
             <div class="userblock__item">
               <a href="" class="userblock-link">Вход</a>
-              <form action="">
+              <form action="url">
                 <div class="field-text  field-group">
                   <div class="field-text__wrapper">
                     <label class="field-text__item">
@@ -88,10 +90,9 @@
                     <p class="userblock-basket__prize-text">450 руб.</p>
                   </td>
                 </tr>
-                <hr class="hr">
-                <p class="userblock-basket__text">Итого: 750 руб.</p>
-                <a href="" class="btn userblock-basket__link">Оформить заказ</a>
               </table>
+              <p class="userblock-basket__text">Итого: 750 руб.</p>
+              <a href="" class="btn userblock-basket__link">Оформить заказ</a>
             </div>
             <div class="userblock-info">
               <p class="userblock-text">с 10 до 20, ежедневно</p>
@@ -112,7 +113,7 @@
             <div class="field-select__title">Сортировка:</div>
             <div class="field-select__wrapper">
               <label class="field-select__item">
-                <select class="field-select__select" name="">
+                <select class="field-select__select" name="sort">
                   <option class="field-select__select-item">По популярности</option>
                   <option class="field-select__select-item">По Цене</option>
                   <option class="field-select__select-item">По рейтингу</option>
@@ -179,105 +180,105 @@
           </div>
         </form>
         <section class="products">
-          <article class="product-item">
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>310/</span>кг</p>
             <p class="product-item__description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>380/</span>кг</p>
             <p class="product-item__description">Сливочно-кофейное с кусочками шоколада</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>355/</span>кг</p>
             <p class="product-item__description">Сливочно-клубничное с присыпкой из белого шоколада</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>415/</span>кг</p>
             <p class="product-item__description">Сливочное крем-брюле с карамельной подливкой</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>325/</span>кг</p>
             <p class="product-item__description">Сливочное с брусничным джемом</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>440/</span>кг</p>
             <p class="product-item__description">Сливочно-черничное с цельными ягодами черники</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>375/</span>кг</p>
             <p class="product-item__description">Сливочно-лимонное с карамельной присыпкой</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>420/</span>кг</p>
             <p class="product-item__description">Сливочное с шоколадной стружкой</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>440/</span>кг</p>
             <p class="product-item__description">Сливочное-ванильное с кусочками шоколада</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>435/</span>кг</p>
             <p class="product-item__description">Сливочное с ментоловым сиропом</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>355/</span>кг</p>
             <p class="product-item__description">Сливочное с кусочками черного шоколада</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
-          <article class="product-item">
+          </div>
+          <div class="product-item">
             <div class="product-item__img">
               <img src="" alt="">
             </div>
             <p class="product-item__prize"><span>420/</span>кг</p>
             <p class="product-item__description">Сливочное с мятным сиропом</p>
             <a href="" class="product-item__link btn">Быстрый просмотр</a>
-          </article>
+          </div>
         </section>
         <ul class="pagination">
-          <li class="pagination__item"><a href="" class="pagination__link"><</a></li>
+          <li class="pagination__item"><a href="" class="pagination__link"></a></li>
           <li class="pagination__item"><a href="" class="pagination__link">1</a></li>
           <li class="pagination__item"><a href="" class="pagination__link">2</a></li>
           <li class="pagination__item"><a href="" class="pagination__link">3</a></li>

@@ -2,7 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Gllasy-index</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="css\normalize.css" rel="stylesheet">
     <link href="css\gllacy.css" rel="stylesheet">
   </head>
   <body>
@@ -13,12 +15,11 @@
       <header class="page-header">
         <div class="page-header__wrapper">
           <div class="logo">
-            <img src="img/gllacy-logo.png" alt="logo" width="200" height="100">
+            <img src="img/logo.svg" alt="logo" width="154" height="64">
           </div>
           <ul class="main-nav">
-            <li href="" class="main-nav__item">
+            <li class="main-nav__item">
               <a href="" class="main-nav__link">Каталог</a>
-            </li>
               <ul class="inner-list">
                 <li class="inner-list__item"><a href="" class="inner-list__link">Новинки</a></li>
                 <li class="inner-list__item"><a href="" class="inner-list__link">Сливочное</a></li>
@@ -36,20 +37,21 @@
           </ul>
           <div class="userblock">
             <div class="userblock__item userblock__item--search">
-              <form action="">
+              <a href="" class="userblock__link userblock__link--search"></a>
+              <form action="url">
                 <div class="field-text  field-group">
                   <div class="field-text__wrapper">
                     <label class="field-text__item">
-                      <input class="field-text__input" type="submit" placeholder="Что ищем?">
-                      <span class="field-text__text"></span>
+                      <input class="field-text__input" type="submit">
+                      <span class="field-text__text">Что ищем?</span>
                     </label>
                   </div>
                 </div>
               </form>
             </div>
             <div class="userblock__item">
-              <a href="" class="userblock-link">Вход</a>
-              <form action="">
+              <a href="" class="userblock__link userblock__link--entrance">Вход</a>
+              <form action="url">
                 <div class="field-text  field-group">
                   <div class="field-text__wrapper">
                     <label class="field-text__item">
@@ -70,7 +72,7 @@
               </form>
             </div>
             <div class="userblock__item">
-              <a href="" class="userblock__link">Пусто</a>
+              <a href="" class="userblock__link userblock__link--basket">Пусто</a>
             </div>
             <div class="userblock-info">
               <p class="userblock-text">с 10 до 20, ежедневно</p>
@@ -102,78 +104,82 @@
       <main>
         <div class="banners">
           <div class="banners__wrapper">
-            <article class="banner">
+            <article class="banner banner--raspberries">
               <h2 class="banner__title">Малинка даром!</h2>
               <p class="banner__text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-              <a class="btn">Хочу варенье!</a>
+              <a class="btn banner-btn">Хочу варенье!</a>
             </article>
-            <article class="banner banner--right">
+            <article class="banner banner--chocolate banner--right">
               <h2 class="banner__title">Шоколад даром!</h2>
               <p class="banner__text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-              <a class="btn">Хочу шоколадки!</a>
+              <a class="btn banner-btn">Хочу шоколадки!</a>
             </article>
           </div>
         </div>
         <section class="products">
-          <article class="product-item product-item--hit">
-            <div class="product-item__img"><img src="" alt=""></div>
-            <p class="product-item__prize"><span>310/</span>кг</p>
+          <article class="product-item  product-item--hit">
+            <div class="product-item__img"><img src="img/1.png" alt=""></div>
+            <p class="product-item__prize"><span>310 ₽</span>/кг</p>
             <p class="product-item__description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
           </article>
           <article class="product-item product-item--hit">
-            <div class="product-item__img"><img src="" alt=""></div>
-            <p class="product-item__prize"><span>380/</span>кг</p>
+            <div class="product-item__img"><img src="img/2.png" alt=""></div>
+            <p class="product-item__prize"><span>380 ₽</span>/кг</p>
             <p class="product-item__description">Сливочно-кофейное с кусочками шоколада</p>
           </article>
           <article class="product-item product-item--hit">
-            <div class="product-item__img"><img src="" alt=""></div>
-            <p class="product-item__prize"><span>355/</span>кг</p>
+            <div class="product-item__img"><img src="img/3.png" alt=""></div>
+            <p class="product-item__prize"><span>355 ₽</span>/кг</p>
             <p class="product-item__description">Сливочно-клубничное с присыпкой из белого шоколада</p>
           </article>
           <article class="product-item product-item--hit product-item--right">
-            <div class="product-item__img"><img src="" alt=""></div>
-            <p class="product-item__prize"><span>415/</span>кг</p>
+            <div class="product-item__img"><img src="img/4.png" alt=""></div>
+            <p class="product-item__prize"><span>415 ₽</span>/кг</p>
             <p class="product-item__description">Сливочное крем-брюле с карамельной подливкой</p>
           </article>
         </section>
         <section class="features">
           <h2 class="features__title">Магазин Глейси  — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h2>
           <ul class="features__list">
-            <li class="features__item">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</li>
-            <li class="features__item">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья. </li>
-            <li class="features__item">Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</li>
-            <li class="features__item">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</li>
+            <li class="features__item features__item--1">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</li>
+            <li class="features__item features__item--3">Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</li>
+            <li class="features__item features__item--2">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья. </li>
+            <li class="features__item features__item--4">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</li>
           </ul>
         </section>
         <div class="banners">
-          <article class="banner banner-blog">
-            <p class="banner-blog__text">Новое в нашем блоге</p>
-            <a class="banner-blog__link">10  способов сервировки фруктовых щербетов к столу</a>
-          </article>
-          <article class="banner banner--delivery">
-            <p class="banner-delivery__text">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =) </p>
-            <form action="">
-              <div class="field-text  field-group">
-                <div class="field-text__wrapper">
-                  <label class="field-text__item">
-                    <input class="field-text__input" type="text" size="" placeholder="Электронная почта">
-                  </label>
-                </div>
+          <div class="banners__wrapper">
+            <article class="banner banner-blog">
+              <p class="banner-blog__text">Новое в нашем блоге</p>
+              <a class="banner-blog__link">10  способов сервировки фруктовых щербетов к столу</a>
+            </article>
+            <article class="banner banner--right banner--delivery">
+              <div class="banner__wrapper">
+                <p class="banner-delivery__text">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =) </p>
+                <form class="delivery-form" action="url">
+                  <div class="field-text  field-group">
+                    <div class="field-text__wrapper">
+                      <label class="field-text__item">
+                        <input class="field-text__input" type="text" placeholder="Электронная почта">
+                      </label>
+                    </div>
+                  </div>
+                  <div class="field-action">
+                    <input class="field-action__btn btn" type="submit" value="Отправить">
+                  </div>
+                </form>
               </div>
-              <div class="field-action">
-                <input class="field-action__btn btn" type="submit" value="Отправить">
-              </div>
-            </form>
-          </article>
+            </article>
+          </div>
         </div>
       </main>
       <div class="map">
         <div class="feedback">
           <div class="feedback__info">
-            <p class="feedback__text">Адрес главного офиса и офлайн магазина: <span>ул. Большая Конюшенная 19/8, Санкт-Петербург</span></p>
+            <p class="feedback__text">Адрес главного офиса и <br> офлайн магазина: <br><span>ул. Большая Конюшенная <br> 19/8, Санкт-Петербург</span></p>
           </div>
           <div class="feedback__info">
-            <p class="feedback__text">Для заказов по телефону: <span>8 812 450-25-25</span> (с 10 до 20 ежедневно)</p>
+            <p class="feedback__text">Для заказов по телефону: <br><span>8 812 450-25-25</span> <br>(с 10 до 20 ежедневно)</p>
           </div>
           <a class="feedback__btn btn" href="">Форма обратной связи</a>
         </div>
@@ -187,13 +193,13 @@
             <a href="" class="social-item social-item--vk"></a>
           </div>
           <ul class="footer-links">
-              <li class="footer-links--item"><a href="" class="footer-links__link">Для поставщиков</a></li>
-              <li class="footer-links--item"><a href="" class="footer-links__link">О производстве</a></li>
-              <li class="footer-links--item"><a href="" class="footer-links__link">Наши документы</a></li>
-              <li class="footer-links--item"><a href="" class="footer-links__link">Экологические стандарты</a></li>
+              <li class="footer-links__item"><a href="" class="footer-links__link footer-links__link--img">Для поставщиков</a></li>
+              <li class="footer-links__item"><a href="" class="footer-links__link">Наши документы</a></li>
+              <li class="footer-links__item"><a href="" class="footer-links__link">О производстве</a></li>
+              <li class="footer-links__item"><a href="" class="footer-links__link">Экологические стандарты</a></li>
           </ul>
           <div class="copyright">
-            <a class="copyright__link" href=""><img src="" alt=""></a>
+            <a class="copyright__link" href=""><img src="img/logo-html.png" alt="" width="108" height="38"></a>
             <p class="copyright__text">Сделано в HTML Academy &#169; 2016</p>
           </div>
         </div>
