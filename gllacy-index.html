@@ -5,7 +5,7 @@
     <title>Gllasy-index</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/gllacy.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <input class="slider-input" type="radio" id="btn-1" name="toggle" checked>
@@ -14,11 +14,11 @@
     <div class="page-wrapper index">
       <header class="page-header">
         <div class="page-header__wrapper">
-          <a href="#">
-            <div class="logo">
+          <div class="logo">
+            <a href="gllacy-index.html">
               <img src="img/logo.svg" alt="logo" width="154" height="64">
-            </div>
-          </a>
+            </a>
+          </div>
           <ul class="main-nav">
             <li class="main-nav__item">
               <a href="gllacy-catalog.html" class="main-nav__link">Каталог</a>
@@ -98,9 +98,9 @@
           <a href="" class="btn slide-btn">Давайте оба!</a>
         </div>
         <div class="slider-controls">
-          <label for="btn-1"></label>
-          <label for="btn-2"></label>
-          <label for="btn-3"></label>
+          <label class="slider-controls__label" for="btn-1"></label>
+          <label class="slider-controls__label" for="btn-2"></label>
+          <label class="slider-controls__label" for="btn-3"></label>
         </div>
       </div>
       <main>
@@ -119,46 +119,38 @@
           </div>
         </div>
         <section class="products">
-          <a href="#" class="products__link">
-            <article class="product-item  product-item--hit">
-              <div class="product-item__img"><img src="img/index-1.jpg" alt=""></div>
-              <p class="product-item__prize"><span>310 ₽</span>/кг</p>
-              <p class="product-item__description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-              <div class="product-item__link-wrapper">
-                <a href="" class="product-item__link btn">Быстрый просмотр</a>
-              </div>
-            </article>
-          </a>
-          <a href="#" class="products__link">
-            <article class="product-item product-item--hit">
-              <div class="product-item__img"><img src="img/index-2.jpg" alt=""></div>
-              <p class="product-item__prize"><span>380 ₽</span>/кг</p>
-              <p class="product-item__description">Сливочно-кофейное с кусочками шоколада</p>
-              <div class="product-item__link-wrapper">
-                <a href="" class="product-item__link btn">Быстрый просмотр</a>
-              </div>
-            </article>
-          </a>
-          <a href="#" class="products__link">
-            <article class="product-item product-item--hit">
-              <div class="product-item__img"><img src="img/index-3.jpg" alt=""></div>
-              <p class="product-item__prize"><span>355 ₽</span>/кг</p>
-              <p class="product-item__description">Сливочно-клубничное с присыпкой из белого шоколада</p>
-              <div class="product-item__link-wrapper">
-                <a href="" class="product-item__link btn">Быстрый просмотр</a>
-              </div>
-            </article>
-          </a>
-          <a href="#" class="products__link">
-            <article class="product-item product-item--hit product-item--right">
-              <div class="product-item__img"><img src="img/index-4.jpg" alt=""></div>
-              <p class="product-item__prize"><span>415 ₽</span>/кг</p>
-              <p class="product-item__description">Сливочное крем-брюле с карамельной подливкой</p>
-              <div class="product-item__link-wrapper">
-                <a href="" class="product-item__link btn">Быстрый просмотр</a>
-              </div>
-            </article>
-          </a>
+          <article class="product-item  product-item--hit">
+            <div class="product-item__img"><img src="img/index-1.jpg" alt=""></div>
+            <p class="product-item__priсe"><span>310 ₽</span>/кг</p>
+            <p class="product-item__description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+            <div class="product-item__link-wrapper">
+              <a href="" class="product-item__link btn">Быстрый просмотр</a>
+            </div>
+          </article>
+          <article class="product-item product-item--hit">
+            <div class="product-item__img"><img src="img/index-2.jpg" alt=""></div>
+            <p class="product-item__priсe"><span>380 ₽</span>/кг</p>
+            <p class="product-item__description">Сливочно-кофейное с кусочками шоколада</p>
+            <div class="product-item__link-wrapper">
+              <a href="" class="product-item__link btn">Быстрый просмотр</a>
+            </div>
+          </article>
+          <article class="product-item product-item--hit">
+            <div class="product-item__img"><img src="img/index-3.jpg" alt=""></div>
+            <p class="product-item__priсe"><span>355 ₽</span>/кг</p>
+            <p class="product-item__description">Сливочно-клубничное с присыпкой из белого шоколада</p>
+            <div class="product-item__link-wrapper">
+              <a href="" class="product-item__link btn">Быстрый просмотр</a>
+            </div>
+          </article>
+          <article class="product-item product-item--hit product-item--right">
+            <div class="product-item__img"><img src="img/index-4.jpg" alt=""></div>
+            <p class="product-item__priсe"><span>415 ₽</span>/кг</p>
+            <p class="product-item__description">Сливочное крем-брюле с карамельной подливкой</p>
+            <div class="product-item__link-wrapper">
+              <a href="" class="product-item__link btn">Быстрый просмотр</a>
+            </div>
+          </article>
         </section>
         <section class="features">
           <h2 class="features__title">Магазин Глейси  — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h2>
@@ -209,10 +201,10 @@
       <footer class="page-footer">
         <div class="page-footer__wrapper">
           <div class="social-block">
-            <a href="" class="social-item social-item--twitter"></a>
-            <a href="" class="social-item social-item--instagram"></a>
-            <a href="" class="social-item social-item--fb"></a>
-            <a href="" class="social-item social-item--vk"></a>
+            <a href="" class="social-link social-link--twitter"></a>
+            <a href="" class="social-link social-link--instagram"></a>
+            <a href="" class="social-link social-link--fb"></a>
+            <a href="" class="social-link social-link--vk"></a>
           </div>
           <ul class="footer-links">
               <li class="footer-links__item"><a href="" class="footer-links__link footer-links__link--img">Для поставщиков</a></li>
@@ -231,7 +223,7 @@
       <form class="feedback-form" action="index.html" method="post">
         <div class="modal-content-close">
         </div>
-        <h1>Мы обязательно вам ответим!</h1>
+        <span class="feedback__title">Мы обязательно вам ответим!</span>
         <div class="field-text  field-group">
           <div class="field-text__wrapper">
             <label class="field-text__item">
@@ -251,7 +243,6 @@
         <input class="field-action__btn btn" type="submit" value="Отправить">
       </form>
     </div>
-    <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

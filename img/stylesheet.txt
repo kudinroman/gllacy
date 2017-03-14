@@ -1,0 +1,197 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Logo {
+    width: 154px;
+    height: 64px;
+    background-position: -5px -5px;
+}
+
+.sprite-basket {
+    width: 21px;
+    height: 20px;
+    background-position: -169px -5px;
+}
+
+.sprite-basket-hover {
+    width: 21px;
+    height: 20px;
+    background-position: -200px -5px;
+}
+
+.sprite-breadcrumbs {
+    width: 6px;
+    height: 6px;
+    background-position: -231px -5px;
+}
+
+.sprite-checkbox {
+    width: 20px;
+    height: 20px;
+    background-position: -247px -5px;
+}
+
+.sprite-checkbox-active {
+    width: 20px;
+    height: 20px;
+    background-position: -169px -35px;
+}
+
+.sprite-checkbox-active-hover {
+    width: 20px;
+    height: 20px;
+    background-position: -199px -35px;
+}
+
+.sprite-checkbox-active-off {
+    width: 20px;
+    height: 20px;
+    background-position: -229px -35px;
+}
+
+.sprite-checkbox-hover {
+    width: 20px;
+    height: 20px;
+    background-position: -169px -65px;
+}
+
+.sprite-checkbox-off {
+    width: 20px;
+    height: 20px;
+    background-position: -199px -65px;
+}
+
+.sprite-entrance {
+    width: 21px;
+    height: 19px;
+    background-position: -229px -65px;
+}
+
+.sprite-entrance-hover {
+    width: 21px;
+    height: 19px;
+    background-position: -5px -94px;
+}
+
+.sprite-fb {
+    width: 32px;
+    height: 32px;
+    background-position: -36px -94px;
+}
+
+.sprite-heart {
+    width: 15px;
+    height: 13px;
+    background-position: -78px -94px;
+}
+
+.sprite-hit {
+    width: 61px;
+    height: 61px;
+    background-position: -103px -95px;
+}
+
+.sprite-ice-cream {
+    width: 49px;
+    height: 49px;
+    background-position: -174px -95px;
+}
+
+.sprite-insta {
+    width: 32px;
+    height: 32px;
+    background-position: -233px -94px;
+}
+
+.sprite-kow {
+    width: 48px;
+    height: 49px;
+    background-position: -5px -154px;
+}
+
+.sprite-leaflet {
+    width: 49px;
+    height: 49px;
+    background-position: -174px -154px;
+}
+
+.sprite-logo-html {
+    width: 108px;
+    height: 38px;
+    background-position: -5px -213px;
+}
+
+.sprite-pin {
+    width: 80px;
+    height: 140px;
+    background-position: -277px -5px;
+}
+
+.sprite-radio {
+    width: 21px;
+    height: 22px;
+    background-position: -63px -155px;
+}
+
+.sprite-radio-active {
+    width: 21px;
+    height: 22px;
+    background-position: -233px -155px;
+}
+
+.sprite-radio-active-hover {
+    width: 21px;
+    height: 22px;
+    background-position: -264px -155px;
+}
+
+.sprite-radio-active-off {
+    width: 21px;
+    height: 22px;
+    background-position: -295px -155px;
+}
+
+.sprite-radio-hover {
+    width: 21px;
+    height: 22px;
+    background-position: -326px -155px;
+}
+
+.sprite-radio-off {
+    width: 21px;
+    height: 22px;
+    background-position: -123px -187px;
+}
+
+.sprite-search {
+    width: 17px;
+    height: 17px;
+    background-position: -233px -187px;
+}
+
+.sprite-search-hover {
+    width: 17px;
+    height: 17px;
+    background-position: -260px -187px;
+}
+
+.sprite-thermometer {
+    width: 48px;
+    height: 49px;
+    background-position: -287px -187px;
+}
+
+.sprite-twitter {
+    width: 33px;
+    height: 32px;
+    background-position: -123px -246px;
+}
+
+.sprite-vk {
+    width: 32px;
+    height: 32px;
+    background-position: -166px -246px;
+}
