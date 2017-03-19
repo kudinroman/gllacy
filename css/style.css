@@ -73,8 +73,12 @@ td p {
   margin: 0px;
 }
 
+td img {
+  border-radius: 50%;
+}
+
 .page-wrapper {
-  min-width: 940px;
+  min-width: 1200px;
   background-image: url(../img/slide-1.png);
   background-repeat: no-repeat;
   background-position: top center;
@@ -151,8 +155,8 @@ td p {
 }
 
 .main-nav__link:hover {
-  background: rgba(255, 255, 255, 0.7);
-  color: #232323;
+  background: #f7f6f3;
+  color: #323232;
   border-radius: 16px;
   font-weight: bold;
   z-index: 400;
@@ -261,6 +265,10 @@ td p {
 }
 
 .userblock__item--search:hover .search-form {
+  display: block;
+}
+
+.userblock__item--search:focus .search-form {
   display: block;
 }
 
@@ -423,7 +431,7 @@ td p {
   color: #323232;
   background: #fbfcfb;
   border: none;
-  padding: 10px 28px;
+  padding: 10px 31px;
 }
 
 .field-action__btn--white:active {
@@ -769,25 +777,36 @@ main::after {
   margin-right: 0px;
 }
 
-.product-item__link-wrapper {
+.product-item__hover {
   display: none;
 }
 
-.product-item:hover .product-item__link-wrapper {
-  display: block;
+.product-item__hover {
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
   z-index: 20;
   top: -10px;
+  bottom: -80px;
   left: -13px;
-  height: 420px;
   width: 293px;
   text-align: center;
   border-radius: 5px;
 }
 
+.product-item:hover .product-item__hover {
+  display: block;
+}
+
 .product-item__link {
-  margin-top: 360px;
+  bottom: -60px;
+  position: absolute;
+  display: inline;
+  margin: 0px 31px;
+  z-index: -1;
+}
+
+.product-item:hover .product-item__link {
+  z-index: 500;
 }
 
 .product-item::before {
@@ -805,6 +824,7 @@ main::after {
 
 .product-item__img {
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .product-item__priсe {
@@ -1046,6 +1066,7 @@ main::after {
 .page-footer {
   width: 1200px;
   margin: auto;
+  border-top: 1px solid #a9bbb1;
 }
 
 .page-footer__wrapper::after {
@@ -1057,7 +1078,7 @@ main::after {
 .social-block {
   float: left;
   position: relative;
-  margin-top: 35px;
+  margin-top: 30px;
   margin-left: 27px;
   margin-bottom: 30px;
   width: 250px;
@@ -1101,7 +1122,7 @@ main::after {
 .footer-links {
   margin: 0px;
   padding: 0px;
-  margin-top: 35px;
+  margin-top: 27px;
   margin-left: 135px;
   float: left;
   width: 420px;
@@ -1143,7 +1164,7 @@ main::after {
 }
 
 .copyright {
-  margin-top: 20px;
+  margin-top: 15px;
   margin-right: 27px;
   width: 190px;
   float: right;
@@ -1422,10 +1443,9 @@ main::after {
 }
 
 .pagination {
-  margin: 0px;
+  margin: 25px 27px 20px 0px;
   padding: 0px;
   float: right;
-  margin-right: 27px;
 }
 
 .pagination__item {
@@ -1435,7 +1455,7 @@ main::after {
 .pagination__link {
   font-size: 16px;
   line-height: 18px;
-  padding: 5px 8px;
+  padding: 5px 10px;
 }
 
 .pagination__link:hover {
